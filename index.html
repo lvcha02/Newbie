@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Pinky World 🎀</title>
+    <title>My Sweet Profile 🎀</title>
     <style>
      body {
-         /* Background Pink Muda banget, biar adem */
          background-color: #FFF0F5;
          text-align: center;
-         /* Font yang agak bulat dan lucu */
-         font-family: 'Comic Sans MS', 'Courier New', sans-serif;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
          color: #4A4A4A;
          margin-top: 50px;
      }
-      
+        
      .container {
-        /* Kotak putih di tengah */
-        background-color: white;
-        width: 80%;
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 30px;
-        /* Sudut kotak dibikin bulan (imut) */
-        border-radius: 25px rgba(255, 182, 193, 0.5);
-        /* Garis pinggir pink */
-        border: 3px solid #FFB6C1;
+         background-color: white;
+         width: 85%
+         max-width: 450px;
+         margin: 0 auto;
+         padding: 40px 20 px;
+         border-radius: 30px;
+         box-shadow: 0 15px 30px rgba(255, 182, 193, 0.4);
+         border: 4px solid #FFB6C1;
      }
-      
-      h1 {
-           /* Judul warna Pink Tua (Hot Pink) */
-           color: #FF1493;
-           font-size: 32px;
-           margin-bottom: 10px;
-      }
-      
-      p {
-          font-size: 18px;
-          line-height: 1.6;
-      }
+        
+       /*---BAGIAN FOTO---*/
+       .profile-img {
+           width: 120px;
+           height: 120px;
+           border-radius: 50%; /* Bikin foto jadi bulat */
+           border: 5px splid #FFB6C1;
+           object-fit: cover;
+           margin-bottom: 15px;
+           transition: transform 0.3s; /* Animasih halus */
+       }
+        
+       .profile-img:hover {
+           transform: scale (1.1) rotate(5deg); /* Foto membesar & miring pas disentuh */
+       }
 
-      .emoji {
-          font-size: 50px;
-          margin-bottom: 20px;
-          display: block;
-      }
+       h1 { color: #FF1493; margin-bottom: 5px;
+       p { font-size: 16px; margin-bottom: 25px; }
 
-      /* Hiasan Bintang kecil */
-      .sparkle {
-          color: #FFD700;
-      }
-  </style>
+       /*---BAGIAN TOMBOL---*/
+       .btn {
+           display: inline-block;
+           text-decoration: none;
+           background-color: #FFB6C1;
+           color: white
+           padding: 12px 25px;
+           border-radius: 50px;
+           font-weight: bold;
+           margin: 10px 5px;
+           transition: 0.3s;
+           box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+       }
+
+           .btn:nover {
+               background-color: #FF1493; /* Warna berubah pas disentuh */
+               transform: translateY(-3px); /* Tombol sedikit naik */
+           }
+           </style>
 </head>
-<body>
+<body><
 
-    <div class="container">
-         <span class="emoji">🌸🩰🎀
-         <h1>Hello, Cutie! <span class="sparkle'>✨</span></h1>
-         <p>Welcome to my beautiful pink world.</p>
-         <p>This website is made with lots of love and soft aesthetics.</p>
-         <p>Have a lovely day! 💕</p>
-         <hr style="border: 1px solid #FFB6C1; margin: 20px 0;">
-         <p style="font-size: 14px; color: #888;">#Aesthetic #Pinky #ProgrammerGirl</p>
-     </div>
+    <div class="container".
+         <img src="https;//o.pinimg.com/originals/0d/36/e7/0d36e7a4748fd10007931fc05723f95c.jpg" class="profile-img" alt="My Profile">
+
+        <h1>Hi, I'm Lvcha!✨</h1>
+        <p>Newbie Web Developer | Pink Enthusiast🎀</p>
+
+        <a href="https://instragram.com/lovelovw.w" target="_blank" class="btn">Instagram🌸</a>
+        <a href="https://instagram.com/_0hoony"target="blank" class="btn">Insta My Hubby💘</a>
+    </div>
 
 </body>
 </html>
